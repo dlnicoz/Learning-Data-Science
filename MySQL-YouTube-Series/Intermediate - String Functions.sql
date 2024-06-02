@@ -5,25 +5,30 @@ FROM bakery.customers;
 
 
 #Length will give us the length of each value
+
 SELECT LENGTH('sky');
 
 #Now we can see the length of each name
+
 SELECT first_name, LENGTH(first_name) 
 FROM employee_demographics;
 
 #Upper will change all the string characters to upper case
+
 SELECT UPPER('sky');
 
 SELECT first_name, UPPER(first_name) 
 FROM employee_demographics;
 
 #lower will change all the string characters to lower case
+
 SELECT LOWER('sky');
 
 SELECT first_name, LOWER(first_name) 
 FROM employee_demographics;
 
 #Now if you have values that have white space on the front or end, we can get rid of that white space using TRIM
+
 SELECT TRIM('sky'   );
 
 #Now if we have white space in the middle it doesn't work

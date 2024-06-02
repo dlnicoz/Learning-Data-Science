@@ -6,7 +6,6 @@
 SELECT *
 FROM employee_demographics
 LIMIT 3;
-
 -- if we change something like the order or use a group by it would change the output
 
 SELECT *
