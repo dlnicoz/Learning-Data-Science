@@ -211,7 +211,6 @@ ON t1.company = t2.company
 SET t1.industry = t2.industry
 WHERE t1.industry IS NULL
 AND t2.industry IS NOT NULL;
-
 -- and if we check it looks like Bally's was the only one without a populated row to populate this null values
 SELECT *
 FROM world_layoffs.layoffs_staging2

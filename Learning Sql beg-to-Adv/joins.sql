@@ -5,7 +5,6 @@ from employee_demographics
 select  *
 from employee_salary ,parks_departments
 ;
-
 select * 
 from employee_demographics 
 cross join employee_salary sal
