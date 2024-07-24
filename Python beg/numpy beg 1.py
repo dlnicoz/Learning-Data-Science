@@ -8,4 +8,4 @@ ty2 = type(arr2)
 print(arr)
 print(arr1)
 print(arr2)
-hello ssh from archi
+hello ssh from wini
