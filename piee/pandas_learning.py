@@ -148,3 +148,56 @@
 # histogram
 # df.plot(king = "hist")
 # plt.show()
+
+# again starting form scratch
+
+import pandas as pd
+import numpy as np
+arr = np.array([[21,43,53,54] , [32,32,54,56]]) 
+arr = [1,2,3,4]
+mydataset = {
+    'cars' : [
+    "bmw" , "volvo" , "ford"
+    ],
+    "passings":[3,6,5]
+}
+
+# myvar = pd.DataFrame(arr)
+
+# series for column in a table
+# myvara = pd.Series(arr)
+# myvara = pd.Series(arr , index = ["a" , "b"  , "c" , "d"])
+
+# print(myvara)
+
+# dataframes
+
+# myvar = pd.DataFrame(mydataset)
+# print(myvar)
+# print(myvar.loc[0])
+
+
+# myvar = pd.DataFrame(mydataset, index = ["day1" , "day2" ,"day3"])
+# print(myvar)
+# print(myvar.loc["day3"])
+
+# again reading csv file
+
+# dfc = pd.read_csv("./data.csv")
+# dfj = pd.read_json("./demo.json")
+# ndf = pd.DataFrame(dfc)
+# print(ndf)
+# print(df.to_string())
+# print(dfc.head())
+# print(dfc.tail())
+# print(dfc.info())
+
+
+# cleaning the data
+
+# df = pd.read_csv("./data.csv")
+# x = df.dropna(inplace=True)
+# y = df["Calories"].mean()
+# x = df.fillna(y, inplace=True)
+# print(x)
+
