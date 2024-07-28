@@ -151,16 +151,16 @@
 
 # again starting form scratch
 
-import pandas as pd
-import numpy as np
-arr = np.array([[21,43,53,54] , [32,32,54,56]]) 
-arr = [1,2,3,4]
-mydataset = {
-    'cars' : [
-    "bmw" , "volvo" , "ford"
-    ],
-    "passings":[3,6,5]
-}
+# import pandas as pd
+# import numpy as np
+# arr = np.array([[21,43,53,54] , [32,32,54,56]]) 
+# arr = [1,2,3,4]
+# mydataset = {
+#     'cars' : [
+#     "bmw" , "volvo" , "ford"
+#     ],
+#     "passings":[3,6,5]
+# }
 
 # myvar = pd.DataFrame(arr)
 

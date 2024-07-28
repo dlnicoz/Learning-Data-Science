@@ -14,11 +14,11 @@
 # y = int(10)
 # c = float(11)
 # print(type(x) , type(y) , type(c))
-T = int(input())
-for i in range(T):
-    N = input()
-    if N[0] == "0":
-        print(N)  # If the string starts with "0", just print it as it is
-    else:
-        print(N[::-1])  # This reverses the string using slicing
+# T = int(input())
+# for i in range(T):
+#     N = input()
+#     if N[0] == "0":
+#         print(N)  # If the string starts with "0", just print it as it is
+#     else:
+#         print(N[::-1])  # This reverses the string using slicing
 
